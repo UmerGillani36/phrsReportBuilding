@@ -1,0 +1,289 @@
+.Page{
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    page-break-after: always;
+
+
+}
+.Page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+    margin: 30mm 45mm 30mm 45mm;
+    page-break-after: always;
+  }
+
+  .MainContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  .Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* margin-bottom: 10px; */
+  }
+  .LeftHeading{
+    display: flex;
+    align-items: center;
+  }
+  .RightHeading{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px 0px 0px;
+  }
+  .Text{
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    margin: 0px 10px 0px 0px;
+  }
+  .TextCert{
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    margin: 0px 40px 0px 0px;
+  }
+  .Input{
+    border-bottom: 1px solid black;
+    width:200px;
+    text-align: center;
+    margin: 0px;
+    font-weight: bold;
+
+  }
+  .Optional{
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    margin: 20px 0px 0px 0px;
+  }
+  .OptionalWords{
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    margin: 0px;
+  }
+  .Second{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+  }
+  .FigureAmountDiv{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .FigureAmount{
+    width: 90%;
+  }
+  .Figure{
+    border-bottom: 1px solid black;
+    margin: 0px;
+    text-align: left;
+    font-size: 12px;
+    word-break: break-all;
+  }
+  .FigureMainContain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .AlignVertical{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .OptionalWordDiv{
+    /* height: 0px; */
+    width: 150px;
+  }
+  .UserInfo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .LeftUserInfoHeading{
+    width: 25%;
+    margin: 20px 40px 0px 0px;
+  }
+  .LeftUserInfoContent{
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    word-break: break-word;
+
+  }
+  .RightInfoDiv{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+  }
+  .UserInputDiv{
+    width: 90%;
+    margin-top: 10px;
+  }
+  .UserInput{
+    width: 100%;
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    border-bottom: 1px solid black;
+    word-break: break-word;
+  }
+  .UserBottomText{
+    margin: 0px;
+    width: 100%;
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+  }
+  .UserAccountInfoDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .UserAccountInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .UserAccountHeading{
+ margin: 0px;
+ width: 20%;
+ font-family: 'Heebo', sans-serif;
+ font-size: 12px;
+  }
+  .UserAccountInput{
+    margin: 0px 20px 0px 0px; 
+    border-bottom: 1px solid black;
+    width: 60%;
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+
+  }
+  .UserAccountNote{
+    margin: 0px;
+    width: 20%;
+    font-family: 'Heebo', sans-serif;
+    font-size: 10px;
+
+  }
+  .UserAccoutTimePeriodDiv{
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+  }
+  .DateDiv{
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .Date{
+    margin: 0px;
+    width: 50%;
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+  }
+  .DateInput{
+    margin: 0px 30px 0px 0px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .UserInfoBottomText{
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+  }
+  .TableContainer{
+    width: 100%;
+  }
+  table{
+    width: 100%;
+  }
+  tr{
+    margin: 0px;
+  }
+  th{
+    margin: 0px;
+    width: 150px;
+    word-break: break-word;
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+  }
+  td{
+    width: 10%;
+    padding:20px 10px;
+    border-bottom: 1px solid black;
+  }
+  .CompanyTextDiv{
+    width: 50%;
+  }
+  .CompanyText{
+    text-align: left;
+    width: 100%;
+    word-break: break-word;
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    margin: 10px 0px;
+
+  }
+  .CompanyOverviewDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .LeftDiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .RightDiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .CompanyOverview{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+  }
+  .COHeading{
+    margin: 0px 0px 0px 0px;
+    width: 15%;
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+  }
+  .COInput{
+    margin: 0px 20px 0px 0px;
+    border-bottom: 1px solid black;
+    width: 70%;
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .LastDiv{
+    width: 100%;
+  }
+  .LastQoute{
+text-align: center;
+font-family: 'Heebo', sans-serif;
+font-size: 12px;
+margin: 0px;
+  }
