@@ -1,0 +1,113 @@
+.Page{
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    page-break-after: always;
+}
+.Page[size="A4"][layout="landscape"] {
+    width: 29.7cm;
+    height: 21cm;  
+  }
+.Page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+  }
+.Header{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.HeaderContent{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.MainHeading{
+    font-family: 'Heebo', sans-serif;
+    margin: 0px;
+    font-weight: bold;
+
+}
+.SubHeading{
+    font-family: 'Heebo', sans-serif;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.ReportDate{
+    font-family: 'Heebo', sans-serif;
+    margin: 0px;
+    font-size: 12px;
+}
+.InvoiceDateDiv{
+width: 100%;
+display: flex;
+justify-content: flex-end;
+}
+.InvoiceDate{
+    font-family: 'Heebo', sans-serif;
+    margin: 0px;
+    font-size: 12px;
+}
+.MainContent{
+    padding: 0px 10px;
+}
+table{
+    border-collapse: collapse; 
+}
+.BankHeadingDiv{
+width: 100%;
+display: flex;
+justify-content: flex-start;
+}
+.BankHeading{
+    font-family: 'Heebo', sans-serif;
+    margin: 10px 0px ;
+
+}
+.tableHeadingRow{
+    border: 1px solid grey;
+}
+th{
+    border-right:  1px solid grey;
+}
+td{
+    padding: 0px;
+    width: auto;
+}
+
+.Row{
+width: 100%;
+display: flex;
+align-items: center;
+border: 1px solid grey;
+height:30px;
+/* margin-bottom: 6px; */
+}
+.Col{
+    width: 110px;
+    height: 30px;
+    margin: 0px;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 10px;
+}
+.TotalRowContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+}
+.TotalCol{
+    width: 110px;
+height: 30px;
+font-size: 10px;
+margin: 0px;
+text-align: center;
+font-weight: bold;
+}
