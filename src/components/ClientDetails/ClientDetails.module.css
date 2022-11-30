@@ -1,0 +1,60 @@
+.Page{
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    page-break-after: always;
+    padding: 10px 20px;
+}
+.Page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+    margin: 30mm 45mm 30mm 45mm;
+    page-break-after: always;
+  }
+  .Header{
+width: 100%;
+  }
+  .LeftContainer{
+display: flex;
+flex-direction: column;
+
+  }
+  .RightContainer{
+    width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+  }
+  .Heading{
+    font-family: 'Heebo', sans-serif;
+    margin: 0px;
+  }
+  .SubHeading{
+    font-family: 'Heebo', sans-serif;
+    margin: 0px;
+    font-size: 12px;
+  }
+  .Date{
+    font-family: 'Heebo', sans-serif;
+    margin: 0px;
+    font-size: 10px;
+  }
+  table{
+    border-collapse: collapse;
+  }
+  tr{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid grey;
+  }
+  th{
+    border-right: none;
+  }
+  th,td{
+    font-family: 'Heebo', sans-serif;
+    font-size: 10px;
+  }
+  td{
+    text-align: center;
+  }
