@@ -54,13 +54,13 @@ align-items: flex-start;
     margin-top: 50px;
 }
 .LeftDetails{
-width: 70%;
+width: 65%;
 display: flex;
 justify-content: flex-start;
 align-items: center;
 }
 .RightDetails{
-width: 30%;
+width: 35%;
 display: flex;
 justify-content: flex-start;
 align-items: center;
