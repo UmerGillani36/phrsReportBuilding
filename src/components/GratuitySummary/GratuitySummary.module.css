@@ -1,0 +1,118 @@
+.Page{
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    page-break-after: always;
+    padding: 40px 30px 20px 30px;
+}
+.Page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+    margin: 30mm 45mm 30mm 45mm;
+    page-break-after: always;
+  }
+  .header{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+  }
+  .headerText{
+    font-family: 'Heebo', sans-serif;
+    margin: 0px;
+    font-size: 12px;
+  }
+  .SecondQoute{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SecondText{
+    font-family: 'Heebo', sans-serif;
+    margin: 20px 0px 10px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.MainCertifyDiv{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+.certifyText{
+    font-family: 'Heebo', sans-serif;
+    margin: 0px;
+    font-size: 14px;
+    text-align: left;
+}
+.EmployeeDetail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.LeftDetails{
+width: 70%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.RightDetails{
+width: 30%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.EmpText{
+    font-family: 'Heebo', sans-serif;
+    margin: 0px 40px 0px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+table{
+    border-collapse: collapse;
+  }
+  tr{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid grey;
+  }
+  th,td{
+    border-right:  1px solid grey;
+  }
+  th,td{
+    font-family: 'Heebo', sans-serif;
+    font-size: 10px;
+  }
+  td{
+    text-align: center;
+  }
+  .BottomDiv{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: auto;
+  }
+  .BotomText{
+    width: 100%;
+    font-family: 'Heebo', sans-serif;
+    font-size: 10px;
+    margin: 10px 0px 0px 0px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+  }
+  .Seperator{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: ; */
+  }
+  .Bold{
+    font-weight: bold;
+  }
