@@ -40,6 +40,12 @@ const ClientDetails = () => {
             })}
         </table>
       </div>
+      <div className={classes.BottomTextDiv}>
+        <p className={classes.BottomText}>
+          EOBI Contribution List - Meezan Bank Limited for the Month of
+          30-Sep-2022
+        </p>
+      </div>
     </page>
   );
 };

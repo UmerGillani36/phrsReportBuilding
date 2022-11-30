@@ -58,3 +58,13 @@ align-items: center;
   td{
     text-align: center;
   }
+  .BottomTextDiv{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .BottomText{
+    font-family: 'Heebo', sans-serif;
+    font-size: 8px;
+    margin: 6px 0px 0px 0px;
+  }
