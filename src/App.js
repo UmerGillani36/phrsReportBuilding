@@ -1,3 +1,4 @@
+import BankCheque from "./components/BankCheque/BankCheque";
 import ClientDetails from "./components/ClientDetails/ClientDetails";
 import GratuitySummary from "./components/GratuitySummary/GratuitySummary";
 import IncomeCertificate from "./components/IncomeCertificate/IncomeCertificate";
@@ -8,7 +9,8 @@ import Testing from "./components/paySlip/Testing";
 function App() {
   return (
     <>
-      <GratuitySummary />
+      <BankCheque />
+      {/* <GratuitySummary /> */}
       {/* <ClientDetails /> */}
       {/* <InvoiceRegister /> */}
       {/* <IncomeCertificate /> */}

@@ -1,0 +1,75 @@
+.Page{
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    page-break-after: always;
+    padding: 10px 20px;
+}
+.Page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+    margin: 30mm 45mm 30mm 45mm;
+    page-break-after: always;
+  }
+  /* font-family: 'Heebo', sans-serif; */
+.Header{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.MainHeadingDiv{
+
+}
+.MainHeading{
+    font-family: 'Heebo', sans-serif; 
+    margin: 0px;
+    font-weight: bold;
+}
+.SubHeadingDiv{
+
+}
+.SubHeading{
+    font-family: 'Heebo', sans-serif; 
+    margin: 20px 0px 30px 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.BankHeadingDiv{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+.BankHeading{
+    font-family: 'Heebo', sans-serif;
+    margin: 0px;
+
+}
+table{
+    border-collapse: collapse;
+  }
+  tr{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid grey;
+  }
+  th{
+    width: 80px;
+    font-size: 10px;
+    border-right: none;
+  }
+  th,td{
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+  }
+  td{
+    font-size: 10px;
+    width: 80px;
+    text-align: center;
+  }
+  .BankData{
+    margin-top: 10px;
+  }
