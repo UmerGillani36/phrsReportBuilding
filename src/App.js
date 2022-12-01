@@ -1,6 +1,7 @@
 import BankCheque from "./components/BankCheque/BankCheque";
 import ClientDetails from "./components/ClientDetails/ClientDetails";
 import GratuitySummary from "./components/GratuitySummary/GratuitySummary";
+import HeadCount from "./components/HeadCount/HeadCount";
 import IncomeCertificate from "./components/IncomeCertificate/IncomeCertificate";
 import InvoiceRegister from "./components/InvoiceRegister/InvoiceRegister";
 import PaymentHistory from "./components/PaymentHistory/PaymentHistory";
@@ -10,7 +11,8 @@ import Testing from "./components/paySlip/Testing";
 function App() {
   return (
     <>
-      <PaymentHistory />
+      <HeadCount />
+      {/* <PaymentHistory /> */}
       {/* <BankCheque /> */}
       {/* <GratuitySummary /> */}
       {/* <ClientDetails /> */}
